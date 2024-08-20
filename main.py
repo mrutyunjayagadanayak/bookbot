@@ -33,7 +33,6 @@ def main():
     word_count = count_words(text)
     character_count = remove_non_alphabet(count_character(text))
     character_list = dict_to_dictlist(character_count)
-    character_list.sort(reverse=True,key=sort_on)
     print_report(character_list,word_count,book_path)
 
 
